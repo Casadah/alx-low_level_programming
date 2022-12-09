@@ -1,18 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 /* more headers goes there */
-
 
 /**
  * main - Entry Point
- * Description - prints if random generated numbers is positive, zero or negative
+ * Description - prints if random generated numbers is +tive, zero or -tive
  * Return: 0 (Success)
  */
 
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
@@ -22,5 +22,4 @@ int main(void)
 	else
 		printf("%d is positive\n", n);
 	return (0);
-
 }
