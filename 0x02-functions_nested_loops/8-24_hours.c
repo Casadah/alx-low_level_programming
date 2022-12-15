@@ -5,7 +5,7 @@
  */
 void jack_bauner(void)
 {
-	int hour, minutes;
+	int hour, minute;
 
 	for (hour = 0; hour <= 23; hour++)
 	{
