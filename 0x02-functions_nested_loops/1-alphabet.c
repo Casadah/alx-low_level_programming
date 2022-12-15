@@ -6,11 +6,11 @@
  */
 void print_alphabet(void)
 {
-	cha la;
+	char la;
 
 	for (la = 'a'; la <= 'z'; la++)
 		_putchar(la);
-	_putchar('\n')
+	_putchar('\n');
 
 	return (0);
 }
